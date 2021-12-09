@@ -1,6 +1,6 @@
 package paquete;
 
-public class texto {
+public class Texto {
 
 	public static String texto() {
 		
@@ -550,11 +550,5 @@ public class texto {
 
 	}
 
-public static String substring(int beginIndex, int endIndex) {
-		
-
-		
-		return null;
-	}
 
 }

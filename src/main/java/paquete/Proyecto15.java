@@ -17,13 +17,15 @@ public class Proyecto15 {
 		
 		String nombreCompleto = nombreMayuscula+apellidoMayuscula;
 		
-		String libro = texto.texto();
+		String libro = Texto.texto();
 		
 		int buscaPalabra = libro.indexOf(nombreCompleto);
 		
 		System.out.println(buscaPalabra); 
 		
-		System.out.println(texto.substring(10685,10700));
+		System.out.println(libro.substring(buscaPalabra,buscaPalabra+nombreCompleto.length()+2));
+		
+		System.out.println(libro.substring(nombreCompleto.length()+2, ));
 		
 		
 		
